@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Contacts from './Contacts'
-import Header from './Header'
-import { Provider } from '../context'
+import Contacts from './components/contacts/Contacts'
+import Header from './components/layout/Header'
+import { Provider } from './context'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
